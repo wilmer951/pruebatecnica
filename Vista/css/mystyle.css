@@ -1,0 +1,60 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+a {
+
+text-decoration: none;
+color: black;
+}
+
+
+a:visited {
+ color: black;
+}
+
+
+.menu{
+
+width: 80%;
+margin: 50px auto;
+
+}
+
+
+.containeruno{
+
+margin: 200px auto;
+width: 80%;
+text-align: center;
+height: auto;
+}
+
+.containeruno p{
+
+margin-bottom: 50px;
+
+}
+
+.containerdos
+{
+
+margin:auto;
+width: 80%;
+text-align: center;
+height: auto;
+}
+
+
+
+input[type=text],[type=email] {
+
+	box-shadow: 0 1px 1px black;
+   
+}
+
+.form-group {
+
+	margin-bottom: 15px;
+}
