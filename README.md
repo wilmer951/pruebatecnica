@@ -1,4 +1,4 @@
-# pruebatecnica
+# Prueba Tecnica
 
 Realizado por Wilmer Pulido Ballesteros
 
