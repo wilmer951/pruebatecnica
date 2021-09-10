@@ -41,6 +41,12 @@
 
 		if(isset($_POST["nombreempleado"])){
 
+
+
+	#preg_match = Realiza una comparación con una expresión regular del lado servidor
+		if(preg_match('/^[a-zA-Z0-9]+$/', $_POST["nombreempleado"])){
+
+
 				
 				if ($_POST["boletinempleado"]==1) {
 					$boletin=1;
@@ -78,7 +84,10 @@
 
 			
 
-					
+			}else{
+
+				header("location:index.php?ir=registrarempleados&st=fail");
+			}		
 
 				
 		}//cierre isset principal
